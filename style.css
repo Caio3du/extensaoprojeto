@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    background-color:#105C54;
+    padding: 1%;
+    gap: 70%;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a{
+    display: inline;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 30px;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+main{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    background-color:#168277;
+    gap: 20%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.main.title{
+    font-size: 40px
+}
+
+.main.text{
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
+.phrase{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.signature{
+    font-size: large;
+}
+
+.liberdade{
+    padding: 1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    max-height: 300px;
+    max-width: 100%;
+    border-radius: 9%;
+
+}
+
+#sobre{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 1%;
+}
+
+.Abouttitle{
+    text-align: center;
+    font-size: 36px;
+    padding: 1%;
+    color: #0B423D;
+}
+
+.abouttext{
+    text-align: center;
+    font-size: 18px;
+    color: #0B423D;
+    padding: 1%;
+}
+
+#desafios{
+    color: aliceblue;
+    background-color: #168277;
+    padding: 3%;
+}
+
+.challenge{
+    text-align: center;
+    font-size: 36px;
+    padding: 1%; 
+}
+
+.ctext{
+    text-align: center;
+    font-size: 18px;
+    padding: 1%;  
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.icon{
+    width: 200px;
+    color: aliceblue;
+    font-size: medium;
+    text-align: center;
+}
+
+.prato{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carro{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.trabalho{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dinheiro{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.novolar{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   color: #0B423D;
+   padding: 3%;
+   background-color: #e5e7eb;
+}
+
+.nltext{
+    padding: 1%;
+}
+
+footer{
+    background-color: #105C54;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    padding: 3%;  
+}
